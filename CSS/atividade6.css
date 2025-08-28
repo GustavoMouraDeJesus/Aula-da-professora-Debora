@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 16px;
+    color: #006;
+    text-align: center;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+     display: flex; /* ativa recurso de alinhamento */
+    flex-direction: row; /* alinhamento em linha ou coluna */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    float: left;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+#lado_esquerdo{
+    position: relative;
+    width: 30%;
+    height: 700px;
+    background-color: aqua;
+    float: left;
+}
+#lado_esquerdo p{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+nav{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-left: 10%;
+}
+aside{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+#lado_direito{
+    position: relative;
+    background-color: blueviolet;
+    float: left;
+    width: 70%;
+    height: 700px;
+    text-align: start;
+    font-size: 26px;
+}
+#tag_article {
+    background-color: white;
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column; /* empilha p e h1 */
+    justify-content: flex-start; /* mantém no topo */
+    margin-left: 5%;
+    padding: 5px;
+    float: left;
+}
+
+/* p alinhado à esquerda */
+#article {
+    align-self: flex-start;
+    margin: 0;
+}
+
+/* h1 centralizado */
+#tag_article h1 {
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+    display: flex; /* ativa recurso de alinhamento */
+    flex-direction: row; /* alinhamento em linha ou coluna */
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+#area{
+     background-color: red;
+    width: 100%;             /* largura do p */
+    height: 280px;           /* altura desejada */
+    text-align: center;     /* centraliza o texto dentro do p */   
+}
+#imagem{
+    margin-top: 10px;
+    background-color: violet;
+    width: 100%;             /* largura do p */
+    height: 280px;           /* altura desejada */
+    text-align: center;     /* centraliza o texto dentro do p */ 
+}
+footer{
+    width: 100%;                 /* ocupa toda a largura */
+    height: 60px;
+    background-color: brown; /* cor do fundo */
+    color: white;                /* cor do texto */
+    text-align: center;          /* centraliza o texto */
+    padding: 20px 0;             /* espaço interno */
+    position: relative;          /* mantém dentro do fluxo normal */
+    margin-top: 20px;            /* separação do conteúdo acima */
+    clear: both;                 /* garante que não fique ao lado de floats */
+    font-size: 16px;
+}

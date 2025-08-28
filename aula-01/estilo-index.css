@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body{
+    margin: 18px;
+    background-color: rgb(233, 193, 184);
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/imagens/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-align: center;
+}
+h2{
+    color: rgb(9, 255, 0);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(4, 44, 18);
+    text-align: center;
+}
+h3{
+    background-color: darkcyan;
+    font-size: 1.2em;
+    width: 600px;
+    color: aqua;
+    font-weight: normal /*retira o negrito da fonte*/;
+    text-align: center;
+}
+.diferente{
+    background-color: aqua;
+    color: darkcyan;
+}
+.pequena{
+    width:250px; /* largura */
+    height:230px; /* altura */
+        }
+ 
+.media{
+    width:350px; /* largura */
+    height:330px; /* altura */
+}
+ 
+.grande{
+    width:450px; /* largura */
+    height:430px; /* altura */
+    border: 3px dashed blue;
+}
+h4,h5,h6{
+    color: blue;
+    background-color: black;
+    font-size: 1em;
+    width: 800px;
+    font-style: italic;
+    text-align: center;
+}
+h4{
+    background-color: brown;
+    margin: auto;
+    border: 5px solid red;
+}
+h5{
+    margin-left: 250px;
+    margin-bottom: 0;
+}
+h6{
+    margin: 0;
+}

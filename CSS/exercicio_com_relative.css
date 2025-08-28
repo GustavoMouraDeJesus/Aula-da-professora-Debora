@@ -1,0 +1,51 @@
+#fundo{
+    position: relative;
+    width: 80%;
+    height: 900px;
+    background-color: #ccc;
+    margin: auto; /*centraliza o componente*/
+}
+#camada1{
+    position: relative; /* O elemento é posicionado em relação a si mesmo, ou seja, à sua posição original.*/
+    width: 10%;
+    height: 100px;
+    background-color: blue;
+    
+    text-align: center;
+    float: left; /*encaixar à esquerda*/
+}
+#camada2{
+    position: relative; /* O elemento é posicionado em relação a si mesmo, ou seja, à sua posição original. */
+    width: 90%;
+    height: 100px;
+    background-color: red;
+
+    text-align: center;
+    float: left; /*encaixar à esquerda*/
+}
+#camada3{
+    position: relative; /* O elemento é posicionado em relação a si mesmo, ou seja, à sua posição original. */
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    
+    text-align: center;
+    clear: left; /*quebra a sequencia de floats*/
+}
+#camada4{
+    position: relative; /* O elemento é posicionado em relação a si mesmo, ou seja, à sua posição original. */
+    width: 99%;
+    height: 650px;
+    background-color: yellow;
+    border: 8px solid red;
+    text-align: center;
+   
+}
+#camada5{
+    position: relative; /* O elemento é posicionado em relação a si mesmo, ou seja, à sua posição original. */
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+    text-align: center;
+   
+}

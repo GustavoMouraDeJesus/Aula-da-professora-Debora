@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 16px;
+    color: #006;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+     display: flex; /* ativa recurso de alinhamento */
+    flex-direction: row; /* alinhamento em linha ou coluna */
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aquamarine;
+}
+nav a{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    width: 16.6%; 
+    transition: 0.6s; 
+}
+nav a:hover{
+    background-color: black;
+}
+#lado_esquerdo a{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    width: 100%;
+    padding: 10px 0;
+    text-align: start;
+    transition: 0.6s;
+    margin: 2px 0; 
+    box-sizing: border-box; 
+}
+#lado_esquerdo{
+    position: relative;
+    width: 20%;
+    height: 700px;
+    background-color: rgb(203, 187, 166);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+}
+#meio{
+    position: relative;
+    width: 55%;
+    height: 700px;
+    background-color: brown;
+    float: left;
+    display: flex; /* Ativa flexbox */
+    flex-direction: column; /* Alinha em coluna */
+    justify-content: start; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    float: left;
+}
+section p{
+    color: white;
+    font-size: 36px;
+}
+
+#um img{
+    position: relative;
+    background-color: rgb(220, 109, 54);
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    
+}
+div p{
+    position: relative;
+    font-size: 46px;
+    color: white;
+}
+#paragrafo{
+    position: relative;
+    background-color: rgb(133, 187, 219);
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.container-cinza {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.box-cinza {
+    background-color: gray;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-cinza p {
+    color: white;
+    font-size: 36px;
+}
+#lado_direito{
+    position: relative;
+    width: 25%;
+    height: 700px;
+    background-color: rgb(203, 187, 166);
+    float: left;
+}
+#lado_direito p{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+footer{
+    position: relative;
+    clear: left;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+footer p{
+    color: white;
+    font-size: 36px;
+    
+}
