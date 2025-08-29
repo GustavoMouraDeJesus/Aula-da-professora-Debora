@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+img{
+    width: 320px;
+    height: 180px;
+    margin: 30px;
+}
+div{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    padding: 10px;
+    border: 5px double;
+    font-size: 16px;
+    text-align: justify;
+    top: 280px;
+    left: 450px;
+    visibility: hidden; 
+}
+div img{
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+#typer{
+    background-color: gray;
+    color: #fd0;
+    border-color: #fd0;
+}
+#ram2500{
+    background-color: rgb(206, 173, 8);
+    color: black;
+    border-color: black;
+}
+#cadilacescalede{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
