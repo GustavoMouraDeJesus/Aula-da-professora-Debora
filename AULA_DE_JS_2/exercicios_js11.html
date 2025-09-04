@@ -11,15 +11,13 @@
 
     <script>
 
-        let quantidade = parseInt(prompt("Quantas médias você vai digitar?"))
-        let media = 0
+        let numero1 = parseInt(prompt("Digite sua nota 1!"))
+        let numero2 = parseInt(prompt("Digite sua nota 2!"))
+        let numero3 = parseInt(prompt("Digite sua nota 3!"))
 
-        for(i = 0; i < quantidade; i++) {
-            let nota = parseFloat(prompt("Quais são as suas médias " ))
-            soma+=nota
-            }
+        let total = (numero1 + numero2 + numero3)
             
-        let  mediaFinal = soma / quantidade 
+        let  mediaFinal = total / 3
 
         document.write("A sua nota finla é: " + mediaFinal)
 
