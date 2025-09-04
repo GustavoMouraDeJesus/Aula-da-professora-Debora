@@ -7,15 +7,21 @@
 </head>
 <body>
     <script>
-        //Aqui começa o exercício número 3...
+        //Aqui começa o exercício número 8...
 
-        let base = parseFloat(prompt("Adicione uma base para o triangulo"))
-        let altura = parseFloat(prompt("Adicione uma altura para o triangulo"))
-        area = base * altura / 2
+        let x = parseInt(prompt("Digite o primeiro numero: "))
+        let y = parseInt(prompt("Digite o segundo numero: "))
+        let reserva = 0
 
-        document.write("A área do triangulo é igual a:" + area)
+        document.write("Antes da troca os valores são X= " + x + "y = " + y + "<br>")
 
-        //Aqui termina o exercício número 3...
+        reserva = x
+        x = y
+        y = reserva
+
+        document.write("Depois de trocar os valores de x=" + x + "y=" +y)
+
+        //Aqui termina o exercício número 8...
     </script>
 </body>
 </html>
